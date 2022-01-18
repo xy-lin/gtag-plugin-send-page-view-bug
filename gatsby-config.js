@@ -15,7 +15,7 @@ module.exports = {
         // This object gets passed directly to the gtag config command
         // This config will be shared across all trackingIds
         gtagConfig: {
-          anonymize_ip: false,
+          anonymize_ip: true,
           send_page_view: true,
           cookie_expires: 123,
         },
